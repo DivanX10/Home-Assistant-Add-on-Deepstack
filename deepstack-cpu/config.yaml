@@ -14,6 +14,8 @@ arch:
   - amd64
 ports:
   5000/tcp: 7000
+ports_description:
+  5000/tcp: (optional): Specify your port
 options:
   port: "7000"
   VISION-FACE: ""
