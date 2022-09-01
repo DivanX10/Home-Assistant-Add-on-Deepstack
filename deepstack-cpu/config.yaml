@@ -12,8 +12,10 @@ hassio_role: server
 stdin: true
 arch:
   - amd64
+ports:
+  5000/tcp: 7000
 options:
-  ports: 7000
+  port: "7000"
   VISION-FACE: ""
   VISION-DETECTION: ""
   VISION-SCENE: ""
