@@ -18,8 +18,14 @@ ports_description:
   5000/tcp: (optional): Specify your port
 options:
   port: "7000"
-  VISION-FACE: ""
-  VISION-DETECTION: ""
-  VISION-SCENE: ""
-  MODELSTORE-DETECTION: ""
+  VISION-FACE: "True"
+  VISION-DETECTION: "True"
+  VISION-SCENE: "True"
+  MODELSTORE-DETECTION: "True"
+  TZ: "" 
+environment:  
+  VISION-FACE: "True"
+  VISION-DETECTION: "True"
+  VISION-SCENE: "True"
+  MODELSTORE-DETECTION: "True"
   TZ: ""
