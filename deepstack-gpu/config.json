@@ -1,0 +1,20 @@
+{
+  "name": "DeepStack (GPU)",
+  "version": "2022.01.1",
+  "url": "https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack",
+  "slug": "deepstack-gpu",
+  "description": "DeepStack - это сервер искусственного интеллекта",
+  "arch": ["amd64"],
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "5000/tcp": 7000
+  },
+  "ports_description": {
+    "5000/tcp": "API"
+  },
+  "environment": {
+    "VISION-FACE": "True",
+    "VISION-DETECTION": "True"
+  }
+}
