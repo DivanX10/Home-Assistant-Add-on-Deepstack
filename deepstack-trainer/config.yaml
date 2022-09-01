@@ -1,0 +1,20 @@
+---
+name: DeepStack Trainer
+version: 2022.01.1
+slug: deepstack-trainer
+description: DeepStack Trainer is a Flask powerd web application that helps us train and test Deepstack AI easelly as possible
+url: https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack
+startup: application
+boot: auto
+homeassistant_api: true
+hassio_api: true
+hassio_role: client
+stdin: true
+arch:
+  - amd64
+ports:
+  80/tcp: 7100
+
+options:
+  DEEPSTACK_HOST_ADDRESS: ""
+

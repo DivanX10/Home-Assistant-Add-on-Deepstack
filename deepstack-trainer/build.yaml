@@ -1,0 +1,6 @@
+---
+build_from:
+  amd64: techblog/deepstack-trainer:2.2.0
+
+args:
+  DeepStack_Trainer: 2.2.0
