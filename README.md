@@ -13,6 +13,10 @@
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
+DeepStack CPU - это сервер искусственного интеллекта, который позволит вам распознавать лица и объекты, а также можно создавать свои пользовательские модели 
+
+[Документация DeepStack](https://docs.deepstack.cc/index.html#)
+
 
 ### [DeepStack Trainer](./deepstack-trainer)
 
