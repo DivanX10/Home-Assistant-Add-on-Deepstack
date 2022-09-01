@@ -1,5 +1,0 @@
-{
-  "build_from": {
-    "amd64": "deepquestai/deepstack:gpu-2022.01.1"
-  }
-}
