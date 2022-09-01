@@ -32,5 +32,5 @@
 
 **DeepStack Trainer** - это клиентсякая часть и имеет веб интерфейс, где вы сможете обучать DeepStac, загружая фото и присаивая имя, а также проверить распознавание лица и объектов по фото
 
-[Документация DeepStack Trainer]([https://docs.deepstack.cc/index.html#](https://github.com/t0mer/deepstack-trainer))
+[Документация DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
 
