@@ -14,6 +14,8 @@ arch:
   - amd64
 ports:
   80/tcp: 7100
+ports_description:
+  80/tcp: (optional): Specify your port
 options:
   DEEPSTACK_HOST_ADDRESS: ""
 
