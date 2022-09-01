@@ -1,0 +1,21 @@
+---
+name: DeepStack (CPU)
+version: 2022.01.1
+slug: deepstack-cpu
+description: DeepStack - это сервер искусственного интеллекта
+url: https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack
+startup: application
+boot: auto
+homeassistant_api: true
+hassio_api: true
+hassio_role: server
+stdin: true
+arch:
+  - amd64
+options:
+  ports: 7000
+  VISION-FACE: ""
+  VISION-DETECTION: ""
+  VISION-SCENE: ""
+  MODELSTORE-DETECTION: ""
+  TZ: ""
