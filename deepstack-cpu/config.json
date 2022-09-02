@@ -19,13 +19,6 @@
     "VISION-DETECTION": "True",
     "VISION-SCENE": "True",
     "MODELSTORE-DETECTION": "True",
-    "TZ": ""  
-  },
-  "schema": {
-    "VISION-FACE": "bool?",
-    "VISION-DETECTION": "bool?",
-    "VISION-SCENE": "bool?",
-    "MODELSTORE-DETECTION": "bool?",
-    "TZ": "str?"
+    "TZ": ""   
   }
 }
