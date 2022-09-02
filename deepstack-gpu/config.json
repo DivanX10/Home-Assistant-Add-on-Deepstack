@@ -3,7 +3,7 @@
   "version": "2022.01.1",
   "url": "https://github.com/johnolafenwa/DeepStack",
   "slug": "deepstack-gpu",
-  "description": "DeepStack - это сервер искусственного интеллекта. Использование DeepStack с графическими процессорами NVIDIA. Версия DeepStack GPU обслуживает запросы в 5-20 раз быстрее, чем версия CPU, если у вас графический процессор NVIDIA.",
+  "description": "DeepStack - это сервер искусственного интеллекта",
   "arch": ["amd64"],
   "startup": "application",
   "boot": "auto",
