@@ -6,6 +6,8 @@
 
 [Скачать образы](https://registry.hub.docker.com/r/deepquestai/deepstack/tags)
 
+[Википедия DeepStack by Divan](https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack/wiki)
+
 
 ## Интеграции в Home assistant
 [HASS-DeepStack-Face](https://github.com/robmarkcole/HASS-Deepstack-face): распознавание лиц, регистрация и распознавание
