@@ -2,6 +2,11 @@
 
 Использование DeepStack с процессором. Версия DeepStack СPU работает медленнее, чем версия GPU.
 
+## Установка
+Устанавливаем и запускаем. Никаких настроек делать не нужно. После запуска аддона Deeepstack нажимаем на веб-интерфейс. Если открылась стартовая страница Deeepstack Server,значит Deeepstack Server запущен и готов к работе. Осталось установить Deeepstack клиент для обучения Deeepstack и проверки распознавания лиц и объектов.
+
+## Источники
+
 [Документация DeepStack](https://docs.deepstack.cc)
 
 [Скачать образы](https://registry.hub.docker.com/r/deepquestai/deepstack/tags)
