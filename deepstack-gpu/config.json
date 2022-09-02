@@ -1,20 +1,24 @@
 {
   "name": "DeepStack (GPU)",
   "version": "2022.01.1",
-  "url": "https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack",
+  "url": "https://github.com/johnolafenwa/DeepStack",
   "slug": "deepstack-gpu",
-  "description": "DeepStack - это сервер искусственного интеллекта",
+  "description": "DeepStack - это сервер искусственного интеллекта. Использование DeepStack с графическими процессорами NVIDIA. Версия DeepStack GPU обслуживает запросы в 5-20 раз быстрее, чем версия CPU, если у вас графический процессор NVIDIA.",
   "arch": ["amd64"],
   "startup": "application",
   "boot": "auto",
+  "webui": "http://[HOST]:[PORT:5000]",
   "ports": {
     "5000/tcp": 7000
   },
   "ports_description": {
-    "5000/tcp": "API"
+    "5000/tcp": "Optional. Port of your deepstack server"
   },
   "environment": {
     "VISION-FACE": "True",
-    "VISION-DETECTION": "True"
+    "VISION-DETECTION": "True",
+    "VISION-SCENE": "True",
+    "MODELSTORE-DETECTION": "True",
+    "TZ": ""   
   }
 }
