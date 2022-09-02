@@ -3,7 +3,7 @@
   "version": "2.2.0",
   "url": "https://github.com/t0mer/deepstack-trainer",
   "slug": "deepstack-trainer",
-  "description": "DeepStack Trainer - клиентская часть",
+  "description": "DeepStack Trainer - клиент c графическим интерфейсом",
   "panel_icon": "mdiFaceRecognition",
   "webui": "http://[HOST]:[PORT:8080]",
   "arch": ["amd64"],
