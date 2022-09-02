@@ -35,7 +35,7 @@
 [Документация DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
 
 
-**Установка**
+## Установка
 
 Перейдите во внешний интерфейс своего домашнего помощника в Настройки -> Дополнения -> Магазин -> нажимаем на 3 точки (справа наверху) и добавьте этот URL-адрес в репозиторий:
 
@@ -43,10 +43,18 @@
 https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack
 ```
 
-**Дополнения в этом репозитории**
+## Дополнения в этом репозитории
 
 DeepStack CPU: Серверная часть для работы с процессором
 
 DeepStack GPU: Серверная часть для работы с видеокартой
 
 DeepStack Trainer: Клиентская часть
+
+
+## Интеграции в Home assistant
+[HASS-DeepStack-Face](https://github.com/robmarkcole/HASS-Deepstack-face): распознавание лиц, регистрация и распознавание
+
+[HASS-DeepStack-Object](https://github.com/robmarkcole/HASS-Deepstack-object): обнаружение общих и пользовательских объектов
+
+[HASS-DeepStack-Scene](https://github.com/robmarkcole/HASS-Deepstack-scene): распознавание сцен
