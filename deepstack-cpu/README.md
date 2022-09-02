@@ -1,4 +1,4 @@
-# Home assistant add-on: DeepStack Server CPU
+# Home assistant add-on: DeepStack CPU - Server
 
 Использование DeepStack с процессором. Версия DeepStack СPU работает медленнее, чем версия GPU.
 
