@@ -3,7 +3,7 @@
   "version": "2022.01.1",
   "url": "https://github.com/johnolafenwa/DeepStack",
   "slug": "deepstack-gpu",
-  "description": "DeepStack - это сервер искусственного интеллекта",
+  "description": "DeepStack - DeepStack - this is an artificial intelligence server",
   "arch": ["amd64"],
   "startup": "application",
   "boot": "auto",
