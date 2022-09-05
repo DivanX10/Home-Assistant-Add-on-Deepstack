@@ -4,14 +4,10 @@
 
 ### [DeepStack Server](https://registry.hub.docker.com/r/deepquestai/deepstack/)
 
-![amd64][amd64-shield] ![armv7][armv7-shield] ![aarch64][aarch64-shield]
+![amd64][amd64-shield]
 
-
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
 
 **DeepStack Server** - это серверная часть искусственного интеллекта, который позволит вам распознавать лица и объекты, а также можно создавать свои пользовательские модел
 
@@ -20,14 +16,10 @@
 
 ### [DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
 
-![amd64][amd64-shield] ![armv7][armv7-shield] ![aarch64][aarch64-shield]
+![amd64][amd64-shield]
 
-
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
 
 
 **DeepStack Trainer** - это клиентсякая часть и имеет веб интерфейс, где вы сможете обучать DeepStac, загружая фото и присаивая имя, а также проверить распознавание лица и объектов по фото
