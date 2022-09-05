@@ -1,13 +1,48 @@
-Клиент c графическим интерфейсом
+# Home Assistant Add-on: DeepStack
+
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%FDivanX10%2Home-Assistant-Add-on-Deepstack)
+
+### [DeepStack Server](https://registry.hub.docker.com/r/deepquestai/deepstack/)
+
+![amd64][amd64-shield]
+
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+
+
+**DeepStack Server** - это серверная часть искусственного интеллекта, который позволит вам распознавать лица и объекты, а также можно создавать свои пользовательские модел
+
+[Документация DeepStack](https://docs.deepstack.cc/index.html#)
+
+
+### [DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
+
+![amd64][amd64-shield]
+
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+
+
+
+**DeepStack Trainer** - это клиентсякая часть и имеет веб интерфейс, где вы сможете обучать DeepStac, загружая фото и присаивая имя, а также проверить распознавание лица и объектов по фото
+
+[Документация DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
+
+
 ## Установка
-Устанавливаем и запускаем. Никаких настроек делать не нужно. После запуска аддона Deeepstack Trainer нажимаем на веб-интерфейс.
 
-## Источники
-[Документация DeepStack](https://docs.deepstack.cc)
+Перейдите во внешний интерфейс своего домашнего помощника в Настройки -> Дополнения -> Магазин -> нажимаем на 3 точки (справа наверху) и добавьте этот URL-адрес в репозиторий:
 
-[Скачать образы](https://registry.hub.docker.com/r/deepquestai/deepstack/tags)
+```
+https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack
+```
 
-[Википедия DeepStack by Divan](https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack/wiki)
+## Дополнения в этом репозитории
+
+DeepStack CPU: Серверная часть для работы с процессором
+
+DeepStack GPU: Серверная часть для работы с видеокартой
+
+DeepStack Trainer: Клиентская часть
+
 
 ## Интеграции в Home assistant
 [HASS-DeepStack-Face](https://github.com/robmarkcole/HASS-Deepstack-face): распознавание лиц, регистрация и распознавание
