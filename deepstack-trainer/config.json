@@ -3,7 +3,7 @@
   "version": "2.2.0",
   "url": "https://github.com/t0mer/deepstack-trainer",
   "slug": "deepstack-trainer",
-  "description": "DeepStack Trainer is a Flask powerd, easy to use web app, hepls us to train and test Deepstack AI
+  "description": "DeepStack Trainer is a Flask powerd, easy to use web app, hepls us to train and test Deepstack AI"
   "webui": "http://[HOST]:[PORT:8080]",
   "arch": ["amd64"],
   "startup": "application",
