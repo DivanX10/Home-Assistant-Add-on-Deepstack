@@ -1,7 +1,8 @@
 # Home Assistant Add-on: DeepStack
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%FDivanX10%2Home-Assistant-Add-on-Deepstack)
+### [Русская версия](https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack/blob/main/readme-ru.md)
 
+----
 ### [DeepStack Server](https://registry.hub.docker.com/r/deepquestai/deepstack/)
 
 ![amd64][amd64-shield]
@@ -9,9 +10,9 @@
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 
 
-**DeepStack Server** - это серверная часть искусственного интеллекта, который позволит вам распознавать лица и объекты, а также можно создавать свои пользовательские модел
+**DeepStack Server** - This is the server part of artificial intelligence, which will allow you to recognize faces and objects, and you can also create your own custom models.
 
-[Документация DeepStack](https://docs.deepstack.cc/index.html#)
+[DeepStack Documentation](https://docs.deepstack.cc/index.html#)
 
 
 ### [DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
@@ -20,33 +21,31 @@
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 
+**DeepStack Trainer** - this is the client part and has a web interface where you can train Deep Stack by uploading photos and assigning a name, as well as check the recognition of faces and objects by photo
+
+[DeepStack Trainer Documentation](https://github.com/t0mer/deepstack-trainer)
 
 
-**DeepStack Trainer** - это клиентсякая часть и имеет веб интерфейс, где вы сможете обучать DeepStac, загружая фото и присаивая имя, а также проверить распознавание лица и объектов по фото
+### Installation
 
-[Документация DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
-
-
-## Установка
-
-Перейдите во внешний интерфейс своего домашнего помощника в Настройки -> Дополнения -> Магазин -> нажимаем на 3 точки (справа наверху) и добавьте этот URL-адрес в репозиторий:
+Go to the external interface of your home assistant in Settings -> Add-ons -> Store -> click on the 3 dots (top right) and add this URL to the repository:
 
 ```
 https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack
 ```
 
-## Дополнения в этом репозитории
+### Additions in this repository
 
-DeepStack CPU: Серверная часть для работы с процессором
+DeepStack CPU: The server part for working with the processor
 
-DeepStack GPU: Серверная часть для работы с видеокартой
+DeepStack GPU: Server part for working with a video card
 
-DeepStack Trainer: Клиентская часть
+DeepStack Trainer: The client part
 
 
-## Интеграции в Home assistant
-[HASS-DeepStack-Face](https://github.com/robmarkcole/HASS-Deepstack-face): распознавание лиц, регистрация и распознавание
+### Integration into Home assistant
+[HASS-DeepStack-Face](https://github.com/robmarkcole/HASS-Deepstack-face): face recognition, registration and recognition
 
-[HASS-DeepStack-Object](https://github.com/robmarkcole/HASS-Deepstack-object): обнаружение общих и пользовательских объектов
+[HASS-DeepStack-Object](https://github.com/robmarkcole/HASS-Deepstack-object): discovery of shared and custom objects
 
-[HASS-DeepStack-Scene](https://github.com/robmarkcole/HASS-Deepstack-scene): распознавание сцен
+[HASS-DeepStack-Scene](https://github.com/robmarkcole/HASS-Deepstack-scene): scene recognition
