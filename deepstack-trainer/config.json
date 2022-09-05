@@ -4,7 +4,6 @@
   "url": "https://github.com/t0mer/deepstack-trainer",
   "slug": "deepstack-trainer",
   "description": "DeepStack Trainer - a client with a graphical interface",
-  "panel_icon": "mdiFaceRecognition",
   "webui": "http://[HOST]:[PORT:8080]",
   "arch": ["amd64"],
   "startup": "application",
