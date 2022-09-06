@@ -5,7 +5,9 @@
 Install and run. You don't need to make any settings. After launching the Deep stack Trainer addon, click on the web interface.
 
 ### Sources
-[Deep Stack Documentation](https://docs.deepstack.cc)
+[Page of the author of DeepStack Trainer Tomer Kleinman](https://github.com/t0mer/deepstack-trainer)
+
+[DeepStack Documentation](https://docs.deepstack.cc)
 
 [Download images](https://registry.hub.docker.com/r/deepquestai/deepstack/tags)
 
