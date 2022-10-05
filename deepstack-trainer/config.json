@@ -8,6 +8,7 @@
   "arch": ["amd64"],
   "startup": "application",
   "boot": "auto",
+  "map": ["config:rw"],
   "ports": {
     "8080/tcp": 7100
   },
