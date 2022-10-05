@@ -19,7 +19,7 @@ RUN pip3 install --upgrade pip --no-cache-dir && \
 RUN mkdir -p /opt/trainer/photos/uploads
 RUN mkdir -p /opt/trainer/db
 
-COPY trainer /opt/trainer
+COPY rootfs /opt/trainer
 
 EXPOSE 8080
 WORKDIR /opt/trainer/
