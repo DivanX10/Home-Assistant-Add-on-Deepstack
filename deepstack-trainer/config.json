@@ -1,0 +1,33 @@
+{
+"name": "DeepStack Trainer (Debian 11)",
+"version": "2.2.0",
+"url": "https://github.com/geerlingguy/docker-debian11-ansible",
+"slug": "deepstack-trainer-debian",
+"description": "DeepStack Trainer на Debian",
+"webui": "http://[HOST]:[PORT:8080]",
+"arch": ["amd64"],
+"startup": "application",
+"boot": "auto",
+"map": ["config:rw"],
+"ports": {
+  "8080/tcp": 7200
+  },
+"ports_description": {
+  "8080/tcp": "Optional. Port of your deepstack server"
+  },
+"environment": {
+  "DEEPSTACK_HOST_ADDRESS": "http://homeassistant:7000",
+  "HOMEASSISTANT_FOLDER_PATH_FOR_DATABASE": "/config/deepstack/db",
+  "HOMEASSISTANT_FOLDER_PATH_FOR_PHOTOS": "/config/deepstack/photos"
+  },
+"options": {
+  "DEEPSTACK_HOST_ADDRESS": "http://homeassistant:7000",
+  "HOMEASSISTANT_FOLDER_PATH_FOR_DATABASE": "/config/deepstack/db",
+  "HOMEASSISTANT_FOLDER_PATH_FOR_PHOTOS": "/config/deepstack/photos"
+  },
+"schema": {
+  "DEEPSTACK_HOST_ADDRESS": "str",
+  "HOMEASSISTANT_FOLDER_PATH_FOR_DATABASE": "str",
+  "HOMEASSISTANT_FOLDER_PATH_FOR_PHOTOS": "str"
+  }
+}
