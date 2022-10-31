@@ -2,8 +2,6 @@
 
 ### [Английская версия](https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack)
 
-----
-
 ### [DeepStack Server](https://registry.hub.docker.com/r/deepquestai/deepstack/)
 
 ![amd64][amd64-shield]
@@ -28,6 +26,7 @@
 
 [Документация DeepStack Trainer](https://github.com/t0mer/deepstack-trainer)
 
+## Инструкции по Deepstack читаем [здесь](https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack/wiki)
 
 ## Установка
 
