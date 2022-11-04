@@ -16,7 +16,7 @@
     "8080/tcp": "Optional. Deepstack trainer. Web interface"
   },
   "environment": {
-    "DEEPSTACK_HOST_ADDRESS": "http://homeassistant:[PORT:7000]"   
+    "DEEPSTACK_HOST_ADDRESS": "http://homeassistant:7000"   
   }
 }
 
