@@ -10,11 +10,11 @@
   "boot": "auto",
   "map": ["config:rw"],
   "ports": {
-    "7000/tcp": 7000
+    "7000/tcp": 7000,
     "8080/tcp": 7100
   },
   "ports_description": {
-    "7000/tcp": "Optional. Port of your deepstack server"
+    "7000/tcp": "Optional. Port of your deepstack server",
     "8080/tcp": "Optional. Port of your deepstack trainer"
   },
   "environment": {
