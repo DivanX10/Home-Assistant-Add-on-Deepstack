@@ -10,13 +10,15 @@
   "boot": "auto",
   "map": ["config:rw"],
   "ports": {
+    "7000/tcp": 7000
     "8080/tcp": 7100
   },
   "ports_description": {
-    "8080/tcp": "Optional. Port of your deepstack server"
+    "7000/tcp": "Optional. Port of your deepstack server"
+    "8080/tcp": "Optional. Port of your deepstack trainer"
   },
   "environment": {
-    "DEEPSTACK_HOST_ADDRESS": "http://homeassistant:[PORT:8080]"   
+    "DEEPSTACK_HOST_ADDRESS": "http://homeassistant:[PORT:7000]"   
   }
 }
 
