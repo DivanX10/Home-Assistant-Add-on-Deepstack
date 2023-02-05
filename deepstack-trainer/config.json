@@ -1,6 +1,6 @@
 {
   "name": "DeepStack Client (DeepStack Trainer)",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "url": "https://github.com/geerlingguy/docker-debian11-ansible",
   "slug": "deepstack-trainer",
   "description": "DeepStack Trainer is a Flask powerd, easy to use web app, hepls us to train and test Deepstack AI",
