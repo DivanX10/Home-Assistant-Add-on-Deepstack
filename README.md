@@ -24,9 +24,11 @@ https://github.com/judahrand/hassio-addon-CodeProject.AI
 
 ### Additions in this repository
 
-DeepStack CPU: The server part for working with the processor
+CodeProject.AI CPU: The basic CPU-only server
 
-DeepStack GPU: Server part for working with a video card
+CodeProject.AI GPU: A GPU (Nvidia CUDA) enabled version x64 systems. This image will also run on non-GPU systems.
+
+CodeProject.AI Raspberry Pi: A version specifically for Raspberry Pi Arm64 devices. This contains an object detection module suited for low resource systems.
 
 
 ### Integration into Home assistant
