@@ -18,3 +18,4 @@ environment:
   VISION-SCENE: True
   MODELSTORE-DETECTION: True
   TZ: ""
+video: True
