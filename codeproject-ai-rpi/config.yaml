@@ -18,3 +18,8 @@ environment:
   VISION-SCENE: True
   MODELSTORE-DETECTION: True
   TZ: ""
+devices:
+  - /dev/video10
+  - /dev/video0
+video: True
+usb: true
