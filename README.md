@@ -1,8 +1,5 @@
 # Home Assistant Add-on: DeepStack
 
-### [Русская версия](https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack/blob/main/readme-ru.md)
-
-----
 ### [DeepStack Server](https://registry.hub.docker.com/r/deepquestai/deepstack/)
 
 ![amd64][amd64-shield]
