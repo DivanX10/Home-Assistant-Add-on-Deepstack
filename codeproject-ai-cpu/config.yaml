@@ -19,3 +19,4 @@ environment:
   VISION-SCENE: "true"
   MODELSTORE-DETECTION: "true"
   TZ: ""
+image: codeproject/codeproject-ai-cpu-{arch}

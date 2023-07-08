@@ -18,4 +18,5 @@ environment:
   VISION-SCENE: "true"
   MODELSTORE-DETECTION: "true"
   TZ: ""
+image: codeproject/codeproject-ai-gpu-{arch}
 video: True
