@@ -13,9 +13,9 @@ ports:
 ports_description:
   5000/tcp: "Port of your CodeProject.AI server"
 environment:
-  VISION-FACE: True
-  VISION-DETECTION: True
-  VISION-SCENE: True
-  MODELSTORE-DETECTION: True
+  VISION-FACE: "true"
+  VISION-DETECTION: "true"
+  VISION-SCENE: "true"
+  MODELSTORE-DETECTION: "true"
   TZ: ""
 video: True
