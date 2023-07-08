@@ -1,0 +1,2 @@
+build_from:
+  aarch64: codeproject/ai-server:rpi64-2.1.9
