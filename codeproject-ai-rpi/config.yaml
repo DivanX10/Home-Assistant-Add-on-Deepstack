@@ -1,7 +1,7 @@
 name: CodeProject.AI Server (Raspberry Pi)
 version: 2.1.9
 url: https://github.com/codeproject/CodeProject.AI-Server
-slug: codeproject-ai-rpi,
+slug: codeproject-ai-rpi
 description: "CodeProject Server is a self contained service that software developers can include in, and distribute with, their applications in order to augment their apps with the power of AI."
 arch: 
   - aarch64
