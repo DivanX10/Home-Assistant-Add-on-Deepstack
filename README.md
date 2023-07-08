@@ -1,10 +1,12 @@
 # Home Assistant Add-on: CodeProject.AI
 
-### [DeepStack Server](https://hub.docker.com/r/codeproject/ai-server)
+### [CodeProject.AI Server](https://hub.docker.com/r/codeproject/ai-server)
 
 ![amd64][amd64-shield]
+![aarch64][aarch64-shield]
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 
 
 **CodeProject.AI Server** - This is the server part of artificial intelligence, which will allow you to recognize faces and objects, and you can also create your own custom models.
