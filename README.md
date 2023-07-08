@@ -19,7 +19,7 @@
 Go to the external interface of your home assistant in Settings -> Add-ons -> Store -> click on the 3 dots (top right) and add this URL to the repository:
 
 ```
-https://github.com/DivanX10/Home-Assistant-Add-on-Deepstack
+https://github.com/judahrand/hassio-addon-CodeProject.AI
 ```
 
 ### Additions in this repository
