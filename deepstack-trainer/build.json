@@ -1,5 +1,0 @@
-{
-  "build_from": {
-    "amd64": "divanx10/debian11-fastapi:v1"
-  }
-}
