@@ -9,9 +9,9 @@ ENV MIN_CONFIDANCE=0.70
 ENV PYTHONIOENCODING=utf-8
 ENV LANG=C.UTF-8
 
-RUN apt update -yqq
+RUN apt update
 
-RUN apt -yqq install python3-pip rsync mc nano
+RUN apt install python3-pip rsync mc nano
 
 RUN pip3 install --upgrade pip --no-cache-dir && \
     pip3 install --upgrade setuptools --no-cache-dir
